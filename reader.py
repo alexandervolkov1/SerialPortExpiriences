@@ -4,7 +4,7 @@ import serial
 
 
 commands = ['#0A', '#0B']
-ser = serial.Serial('COM9')
+ser = serial.Serial('COM11')
 
 while True:
     for command in commands:
